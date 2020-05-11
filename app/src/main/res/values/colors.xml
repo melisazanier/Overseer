@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#51301F</color>
+    <color name="colorPrimaryDark">#412719</color>
+    <color name="colorAccent">#99744F3A</color>
+    <color name="background">#A36F54</color>
+    <color name="colorListItems">#FFFFFF</color>
+    <color name="colorDividerListItems">#8A807B</color>
+    <color name="colorText">#41403D</color>
+    <color name="colorTextPrice">#721310</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="newActionBarColor">#5A4C4A</color>
+    <color name="newButtonColor">#4D5A4C4A</color>
+    <color name="newSlideColor">#265A4C4A</color>
+
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Overseer</string>
+    <string name="choose_one_cateory">Choose one cateory</string>
+    <string name="choose_one_subcateory">Choose one subcateory</string>
+</resources>

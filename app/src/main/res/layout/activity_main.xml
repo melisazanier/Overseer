@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/rectangle">
+
+    <ImageView
+        android:id="@+id/logoTextImage"
+        android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="280dp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView style="?android:textAppearanceMedium"
+        android:padding="16dp"
+        android:id="@+id/noProductsSlide"
+        android:maxLines="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginStart="70dp"
+        android:text="Niciun produs favorit"/>
+
+    <androidx.viewpager.widget.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="380dp"
+        android:layout_width="match_parent"
+        android:id="@+id/pager"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"/>
+
+
+
+    <Button
+        android:id="@+id/favBtn"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/rectangle"
+        android:text="Produsele favorite" />
+
+    <Button
+        android:id="@+id/goToShopsButton"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginTop="430dp"
+        android:background="@drawable/rectangle"
+        android:text="Magazine" />
+
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginTop="490dp"
+        android:background="@drawable/rectangle"
+        android:text="Setari" />
+</RelativeLayout>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/rectangle">
+
+
+    <TextView
+        android:id="@+id/textNotifSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="73dp"
+        android:text="Noificarile vor fi trimise:"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"
+        android:background="@color/newButtonColor"/>
+
+    <Switch
+        android:id="@+id/switch1NotifChoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="56dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="5dp"
+        android:text="Cand pretul este in scadere                 "
+        android:textColor="@color/newActionBarColor"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:checked="false" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/newButtonColor"/>
+
+    <Switch
+        android:id="@+id/switch2NotifChoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="56dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/newActionBarColor"
+        android:text="Cand are loc orice modificare             "
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:checked="false" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/newButtonColor"/>
+
+    <TextView
+        android:id="@+id/textServiceSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="73dp"
+        android:text="Monitorizarea se va face la fiecare:"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"
+        android:background="@color/newButtonColor"/>
+    <Switch
+        android:id="@+id/switch0ServicePeriod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="56dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="5dp"
+        android:text="30 de minute                                            "
+        android:textColor="@color/newActionBarColor"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:checked="false" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/newButtonColor"/>
+
+    <Switch
+        android:id="@+id/switch1ServicePeriod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="56dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="5dp"
+        android:text="60 de minute                                            "
+        android:textColor="@color/newActionBarColor"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:checked="false" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/newButtonColor"/>
+
+    <Switch
+        android:id="@+id/switch2ServicePeriod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="56dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/newActionBarColor"
+        android:text="3 ore                                                           "
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:checked="false" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/newButtonColor"/>
+
+    <Switch
+        android:id="@+id/switch3ServicePeriod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="56dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/newActionBarColor"
+        android:text="6 ore                                                           "
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:checked="false" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/newButtonColor"/>
+
+    <Switch
+        android:id="@+id/switch4ServicePeriod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="56dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/newActionBarColor"
+        android:text="12 ore                                                         "
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:checked="false" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/newButtonColor"/>
+
+    <Switch
+        android:id="@+id/switch5ServicePeriod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="56dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/newActionBarColor"
+        android:text="24 de ore                                                   "
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:checked="false" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/newButtonColor"/>
+
+</LinearLayout>
